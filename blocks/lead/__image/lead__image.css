@@ -1,0 +1,17 @@
+.lead__image {
+    object-fit: cover;
+    max-width: 100%;
+    margin: 0 auto 8px;
+    padding: 0;
+    border: green solid;
+  }
+  @media screen and (max-width: 1024px) {
+    .lead__image {
+      width: 90.6vw;
+    }
+  }
+  @media screen and (max-width: 768px) {
+    .lead__image {
+      width: 100vw;
+    }
+  }

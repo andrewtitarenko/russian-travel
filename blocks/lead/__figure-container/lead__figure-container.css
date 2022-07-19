@@ -1,0 +1,26 @@
+.lead__figure-container{
+    border: salmon solid;
+    max-width: 984px;
+    width: 76.87vw;
+    margin: 0 auto;
+}
+
+@media screen and (max-width: 1024px) {
+    .lead__figure-container{
+    width: 90.6vw;
+    max-width: 1024px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .lead__figure-container{
+    width: 100%;
+    max-width: 768px;
+    }
+}
+@media screen and (max-width: 320px) {
+    .lead__caption-container {
+    max-width: 320px;
+    width: 100%;
+    }
+}

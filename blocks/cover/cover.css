@@ -1,0 +1,28 @@
+.cover{
+    margin: 0 auto;
+    padding: 0;
+    padding-bottom: 92px;
+    max-width: 1184px;
+    width: 92.5vw;
+    cursor: pointer;
+    border: solid green;
+}
+
+
+@media screen and (max-width: 1024px) {
+    .cover{
+        max-width: 1024px;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .cover{
+        padding-bottom: 88px;
+    }
+}
+@media screen and (max-width: 320px) {
+    .cover{
+        padding-bottom: 64px;
+    }
+}
