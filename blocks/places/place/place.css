@@ -7,7 +7,6 @@
     grid-template-columns: repeat(auto-fit, 460px 484px);
     column-gap: 40px;
     row-gap: 48px;
-    max-width: 984px;
 }
 .place:last-child{
     margin-bottom: 0;
