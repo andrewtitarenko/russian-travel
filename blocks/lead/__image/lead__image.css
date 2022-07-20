@@ -1,13 +1,13 @@
 .lead__image {
+    margin: 0;
+    padding: 0;
     object-fit: cover;
     max-width: 100%;
-    margin: 0 auto 8px;
-    padding: 0;
-    border: green solid;
+    min-height: 200px;
   }
   @media screen and (max-width: 1024px) {
     .lead__image {
-      width: 90.6vw;
+      width: 90.62vw;
     }
   }
   @media screen and (max-width: 768px) {

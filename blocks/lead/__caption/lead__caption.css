@@ -1,11 +1,12 @@
 .lead__caption{
+max-width: 1280px;
+margin-top: 8px;
 font-size: 10px;
 font-weight: 400;
 line-height: 1.4;
 letter-spacing: 1.5px;
+align-self: flex-start;
 text-transform: uppercase;
-border: solid white;
-max-width: 1280px;
 }
 
 @media screen and (max-width: 768px) {
@@ -13,8 +14,8 @@ max-width: 1280px;
     margin: 8px auto 0 24px;
     }
   }
-  @media screen and (max-width: 320px) {
+@media screen and (max-width: 320px) {
     .lead__caption {
-      margin: 8px auto 0 16px;
+    margin: 8px auto 0 16px;
     }
   }

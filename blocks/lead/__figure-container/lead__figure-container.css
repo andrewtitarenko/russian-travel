@@ -1,14 +1,14 @@
 .lead__figure-container{
-    border: salmon solid;
-    max-width: 984px;
-    width: 76.87vw;
     margin: 0 auto;
+    max-width: 984px;
+    object-fit: inherit;
+    width: 76.87vw;
 }
 
 @media screen and (max-width: 1024px) {
     .lead__figure-container{
-    width: 90.6vw;
     max-width: 1024px;
+    width: 90.6vw;
     }
 }
 
@@ -19,7 +19,7 @@
     }
 }
 @media screen and (max-width: 320px) {
-    .lead__caption-container {
+    .lead__figure-container {
     max-width: 320px;
     width: 100%;
     }

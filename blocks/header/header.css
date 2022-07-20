@@ -1,11 +1,12 @@
 .header{
+    margin: 0 auto;
+    padding: 0;
+    padding-top: 28px;
+    padding-bottom: 56px;
     display: flex;
-    flex-direction: row;
     justify-content: space-between;
-    margin: 28px auto 48px;
     max-width: 1184px;
     flex-wrap: wrap;
-    border: solid whitesmoke;
     width: 92.5vw;
 }
 
@@ -13,22 +14,23 @@
     .header {
       max-width: 928px;
       width: calc(100vw - 96px);
-      margin: 28px auto 48px;
+      padding-top: 28px;
+      padding-bottom: 48px;
     }
   }
 
   @media screen and (max-width: 768px) {
     .header {
         max-width: 720px;
-        width: calc(100vw - 48px);
-        margin: 28px auto 48px;
-    }
+        width: calc(100vw - 48px);  
+      }
   }
   @media screen and (max-width: 320px) {
     .header {
         max-width: 288px;
         width: calc(100vw - 32px);
-        margin: 16px auto 48px;
+        padding-top: 16px;
+        padding-bottom: 48px;
     }
   }
 
