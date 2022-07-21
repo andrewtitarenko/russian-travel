@@ -1,25 +1,23 @@
-.intro__title{
-    margin: 0 0 40px;
-    padding: 0;
-    max-width: 690px;
-    font-size: 54px;
-    font-weight: 900;
-    line-height: 1.07;
+.intro__title {
+  margin: 0 0 40px;
+  padding: 0;
+  max-width: 690px;
+  font-size: 54px;
+  font-weight: 900;
+  line-height: 1.07;
 }
 
 @media screen and (max-width: 768px) {
-    .intro__title{
-        max-width: 720px;
-        font-size: 7.03vw;
+    .intro__title {
+      max-width: 720px;
+      font-size: 7.03vw;
     }
 }
+
 @media screen and (max-width: 320px) {
-    .intro__title{
-        max-width: 288px;
-        font-size: 32px;
-        line-height: 1.09;
+    .intro__title {
+      max-width: 288px;
+      font-size: 32px;
+      line-height: 1.09;
     }
 }
-
-
-

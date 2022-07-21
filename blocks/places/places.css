@@ -13,7 +13,7 @@
 @media screen and (max-width: 768px) {
     .places{
       max-width: 720px;
-      padding-bottom: 90px;
+      padding-bottom: 63px;
     }
 }
 @media screen and (max-width: 320px) {

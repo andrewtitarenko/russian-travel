@@ -1,26 +1,26 @@
-.lead__figure-container{
-    margin: 0 auto;
-    max-width: 984px;
-    object-fit: inherit;
-    width: 76.87vw;
+.lead__figure-container {
+  margin: 0 auto;
+  max-width: 984px;
+  object-fit: inherit;
+  width: 76.87vw;
 }
 
 @media screen and (max-width: 1024px) {
-    .lead__figure-container{
-    max-width: 1024px;
-    width: 90.6vw;
+    .lead__figure-container {
+      max-width: 1024px;
+      width: 90.6vw;
     }
 }
 
 @media screen and (max-width: 768px) {
-    .lead__figure-container{
-    width: 100%;
-    max-width: 768px;
+    .lead__figure-container {
+      width: 100%;
+      max-width: 768px;
     }
 }
+
 @media screen and (max-width: 320px) {
     .lead__figure-container {
-    max-width: 320px;
-    width: 100%;
+      max-width: 320px;
     }
 }

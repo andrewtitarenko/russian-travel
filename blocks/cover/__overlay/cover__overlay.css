@@ -10,6 +10,7 @@
   position: relative;
   text-decoration: none;
 }
+
 .cover__overlay::before {
   min-height: 100%;
   width: 100%;
@@ -20,20 +21,26 @@
   opacity: 0.3;
   transition: opacity 1.2s ease;
 }
+
 .cover__overlay:hover::before {
   opacity: 0.9;
 }
+
 @media screen and (max-width: 1024px) {
   .cover__overlay {
     max-width: 1024px;
     min-height: 62.5vw;
   }
 }
+
 @media screen and (max-width: 768px) {
   .cover__overlay {
+    margin: 0;
+    padding: 0;
     max-width: 768px;
   }
 }
+
 @media screen and (max-width: 320px) {
   .cover__overlay {
     max-width: 320px;
