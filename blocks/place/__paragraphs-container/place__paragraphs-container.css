@@ -6,9 +6,12 @@
 
 @media screen and (max-width: 768px) {
   .place__paragraphs-container{
-      gap: 25px;
+      display: flex;
+      flex-direction: column;
+    }
   }
-}
+
+
 
 @media screen and (max-width: 320px) {
   .place__paragraphs-container{
